@@ -1,0 +1,15 @@
+Load json file as spark data frame then get the latest record for the recipe.
+Use contains command to filter the ingredient
+Convert PT___ formatted time into minute for easy use
+Get total cooking time in minute and use it to get difficulty level
+
+Assumptions:
+1) Recipe name is not changing
+2) Recipe name is unique
+
+Running the script:
+Have to provide 4 arguments. Last one is optional
+1) input_path: full qualified path for input json file
+2) output_path_1: path for save filtered data as a csv
+3) output_path_2: path for save average cooking time as a csv
+4) filter_ingredient: (Optional) default: Beef  '
